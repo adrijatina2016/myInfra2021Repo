@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "myterraformbucket12345" {
+resource "aws_s3_bucket" "terraformbucketfordynamodb" {
   bucket_prefix = var.bucket_prefix
   acl = var.acl
   
